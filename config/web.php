@@ -1,5 +1,5 @@
 <?php
-
+use yii\bootstrap5\BootstrapAsset; // Add this line at the top
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
