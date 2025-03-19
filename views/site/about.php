@@ -6,88 +6,80 @@ use yii\helpers\Html;
 
 $this->title = 'About MD Rasheduzzaman';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
+
 <div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center mb-4"><?= Html::encode($this->title) ?></h1>
 
-    <p>
-        Welcome to my portfolio. I am MD Rasheduzzaman, a Project Manager and Senior Software Engineer with over 9 years of experience in full-stack development, team leadership, and driving high-performance projects. With a deep commitment to delivering scalable and efficient systems, I have successfully led diverse teams, managed complex projects, and engineered innovative technology solutions for a range of industries.
-    </p>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="h3">Introduction</h2>
+                        <p>
+                            Hello, I am MD Rasheduzzaman, a passionate and results-driven Project Manager with over 9 years of experience in full-stack development, team leadership, and project management. I specialize in delivering scalable, high-performance solutions using various technologies, including PHP, Node.js, Laravel, React, and more. My expertise lies in overseeing remote teams, managing project lifecycles, and driving innovative tech solutions to help businesses achieve their goals.
+                        </p>
 
-    <h3>Professional Summary</h3>
-    <p>
-        As a results-driven leader, I specialize in system architecture, project management, and leading cross-functional teams through every phase of the development lifecycle. My expertise lies in streamlining workflows, optimizing team productivity, and ensuring timely delivery of high-quality software solutions. I have consistently driven improvements in performance, scalability, and reliability for large-scale web applications and enterprise-level systems.
-    </p>
+                        <h2 class="h3">Why I Love Computer Science</h2>
+                        <p>
+                            From a young age, I’ve been fascinated by how technology shapes the world. Computer Science is not just about writing code; it’s about solving real-world problems, creating systems that empower individuals and businesses, and constantly pushing the boundaries of what’s possible. The ability to transform abstract ideas into tangible results is what makes computer science so exciting for me.
+                        </p>
 
-    <h3>Core Competencies</h3>
-    <ul>
-        <li><strong>Project & Team Management:</strong> Agile methodologies (Scrum, Kanban), Sprint Planning, Remote Team Leadership, Risk & Workflow Optimization, Cross-Functional Collaboration.</li>
-        <li><strong>System Architecture & DevOps:</strong> Microservices, Cloud Infrastructure (AWS, DigitalOcean, GCP), Kubernetes, Docker, CI/CD Implementation, Nginx, Apache.</li>
-        <li><strong>Software Development:</strong> Backend (PHP, Node.js, Python), Frontend (React.js, JavaScript, UI/UX Design), Databases (MySQL, MongoDB, Redis), APIs (RESTful, GraphQL).</li>
-    </ul>
+                        <h2 class="h3">Why Graduate in Computer Science and Engineering</h2>
+                        <p>
+                            I chose to pursue a degree in Computer Science and Engineering because it offered the perfect blend of creativity, logical thinking, and problem-solving. I wanted to understand the foundational principles of computing and software development to become a more capable and versatile developer. The degree not only provided me with in-depth knowledge but also equipped me with the skills needed to tackle complex challenges in software engineering.
+                        </p>
 
-    <h3>Professional Experience</h3>
+                        <h2 class="h3">What I Like Most in Computer Science</h2>
+                        <p>
+                            What excites me most about computer science is the constant innovation and the ever-evolving nature of the field. Whether it's developing cutting-edge algorithms, exploring machine learning, or optimizing systems, there's always something new to learn. I particularly enjoy working on system architecture and scalable solutions, where I can apply my knowledge to enhance performance and efficiency.
+                        </p>
 
-    <h4>Senior Project Manager | Al Haramain</h4>
-    <p><strong>September 2022 – Present | Dhaka, Bangladesh (Remote)</strong></p>
-    <p>
-        Leading a remote, cross-functional team of 36 developers across multiple time zones to deliver scalable, high-performance software solutions. Key contributions include architecting complex systems using PHP, Node.js, React, and databases, reducing system downtime by 35% and enhancing scalability by 15%. I also spearheaded the adoption of CI/CD pipelines and Docker, reducing deployment times and post-deployment issues.
-    </p>
+                        <h2 class="h3">Why I Love Programming</h2>
+                        <p>
+                            Programming is my passion because it enables me to create solutions that make a difference. I enjoy the challenge of breaking down problems into smaller tasks and then solving them efficiently through code. The feeling of satisfaction when a program works exactly as intended, or when you successfully debug a complex issue, is unmatched. Programming also allows for continuous learning, keeping me engaged and motivated.
+                        </p>
 
-    <h4>Project Manager | Al Haramain</h4>
-    <p><strong>January 2021 – August 2022 | Dhaka, Bangladesh (Remote)</strong></p>
-    <p>
-        Directed cross-functional teams of 30+ developers, ensuring the successful delivery of 12+ full-stack features, leveraging PHP, Node.js, React, and MySQL. Achieved a 95% on-time delivery rate and improved inter-team collaboration by 20%. I was responsible for articulating project requirements, objectives, and progress to stakeholders, maintaining a high level of transparency.
-    </p>
+                        <h2 class="h3">My Language Expertise</h2>
+                        <p>
+                            Over the years, I’ve built proficiency in several programming languages, including:
+                        </p>
+                        <ul>
+                            <li><strong>Backend:</strong> PHP (Laravel, CodeIgniter), Node.js (Express, Fastify), Python (FastAPI, Flask)</li>
+                            <li><strong>Frontend:</strong> JavaScript (React, jQuery), UI/UX (Figma, Tailwind, Bootstrap)</li>
+                            <li><strong>Databases:</strong> MySQL, MongoDB, Redis, DynamoDB</li>
+                            <li><strong>Deployment & DevOps:</strong> Docker, Kubernetes, Jenkins, GitHub Actions</li>
+                        </ul>
+                        <p>
+                            These technologies have allowed me to build scalable, efficient, and high-performance applications across different domains.
+                        </p>
 
-    <h4>Senior Software Engineer | Spondon IT</h4>
-    <p><strong>January 2019 – June 2020 | Dhaka, Bangladesh</strong></p>
-    <p>
-        Managed the development of complex backend systems and RESTful APIs, optimizing data retrieval processes and improving system security. Led initiatives to fortify web server configurations, mitigating over 15 potential DDoS attack vectors.
-    </p>
+                        <h2 class="h3">Future Plans</h2>
+                        <p>
+                            My future plans involve continuing to expand my technical and leadership skills. I aim to contribute more to cloud computing, machine learning, and AI, areas where I believe the future of technology lies. I also look forward to collaborating with forward-thinking teams and companies to drive innovative projects that positively impact users and businesses worldwide.
+                        </p>
 
-    <h4>Software Engineer | United Group</h4>
-    <p><strong>July 2017 – December 2018 | Dhaka, Bangladesh</strong></p>
-    <p>
-        Delivered end-to-end software solutions using PHP, Laravel, MySQL, and JavaScript. Focused on enhancing database performance and user experience through responsive and dynamic web applications.
-    </p>
+                        <h2 class="h3">How to Hire Me</h2>
+                        <p>
+                            If you're looking to hire a project manager with a strong background in full-stack development, team leadership, and project management, feel free to reach out. I’m available for remote roles, and I bring over 9 years of experience in managing teams, optimizing workflows, and delivering high-quality software. You can contact me through the following:
+                        </p>
+                        <ul>
+                            <li><strong>LinkedIn:</strong> [Your LinkedIn URL]</li>
+                            <li><strong>Email:</strong> mrazmna@gmail.com</li>
+                            <li><strong>Phone:</strong> +88 01734446514</li>
+                            <li><strong>GitHub:</strong> [Your GitHub URL]</li>
+                            <li><strong>Portfolio:</strong> [Your Portfolio URL]</li>
+                        </ul>
 
-    <h4>Junior Software Engineer | United Group</h4>
-    <p><strong>June 2016 – June 2017 | Dhaka, Bangladesh</strong></p>
-    <p>
-        Contributed to the development and optimization of web applications, focusing on high-performance backend functionality and user-centric interfaces.
-    </p>
-
-    <h3>Highlighted Projects</h3>
-    <ul>
-        <li><strong>HRM – Human Resource Management System</strong> (Microservices, Node.js, Go, Python, Kafka, Redis) – An ongoing project to create a scalable HRM system.</li>
-        <li><strong>LMS – Learning Management System</strong> (Laravel, jQuery, Bootstrap) – A platform for course creation, management, and tracking.</li>
-        <li><strong>CRM – Client Relationship Management System</strong> (Laravel, jQuery, Bootstrap) – A tool to streamline client interactions and sales processes.</li>
-        <li><strong>Ecommerce – Online Marketplace with Multi-Vendor</strong> (Next.js, Node.js, MongoDB, Laravel) – A full-featured ecommerce platform with multi-vendor capabilities.</li>
-        <li><strong>ExpenseTracker – Mobile Expense Tracking</strong> (Laravel, Tailwind CSS, Firebase, Flutter) – A mobile app designed to track and manage personal finances.</li>
-        <li><strong>Social Media Dashboard</strong> (React.js, GraphQL, Node.js, MongoDB) – A social media analytics platform for data-driven insights.</li>
-    </ul>
-
-    <h3>Certifications</h3>
-    <ul>
-        <li>Google Project Management Certificate – Completed (January 2025)</li>
-        <li>Agile Project Management – Coursera (University of Maryland) – Completed (December 2024)</li>
-        <li>Introduction to Project Management – Alison – Completed (November 2024)</li>
-        <li>Scrum Master Fundamentals – Scrum Training Series – Completed (October 2024)</li>
-        <li>Project Management Principles and Practices – Coursera (University of California, Irvine) – Completed (September 2024)</li>
-    </ul>
-
-    <h3>Get in Touch</h3>
-    <p>
-        I am always open to new opportunities, collaborations, and challenges. If you would like to connect, discuss a project, or explore potential partnerships, feel free to reach out.
-    </p>
-    <p>
-        <a class="btn btn-lg btn-success" href="mailto:mrazmna@gmail.com">Send an Email</a>
-    </p>
-
-    <hr>
-
-    <footer>
-        <p>&copy; <?= date('Y') ?> MD Rasheduzzaman. All rights reserved.</p>
-    </footer>
+                        <h2 class="h3">How I Can Collaborate</h2>
+                        <p>
+                            I’m always open to collaboration! Whether it’s working on a new project, contributing to an open-source initiative, or offering guidance on best practices, I believe that teamwork is key to innovation. You can collaborate with me by reaching out via email, LinkedIn, or my GitHub profile. Let’s discuss how we can work together to bring exciting new ideas to life!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
