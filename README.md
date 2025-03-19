@@ -102,9 +102,9 @@ Messages submitted via the contact form will be stored and processed accordingly
 
 Here are some screenshots of the portfolio site:
 
-- **Home Page**: ![Home Page](screenshots/Artboard 1@4x.png)
-- **About Page**: ![About Page](screenshots/Artboard 1@4x.png)
-- **Contact Form**: ![Contact Form](screenshots/Artboard 3@4x.png)
+- **Home Page**: ![Home Page](screenshots/1.png)
+- **About Page**: ![About Page](screenshots/2.png)
+- **Contact Form**: ![Contact Form](screenshots/3.png)
 
 ## License
 
