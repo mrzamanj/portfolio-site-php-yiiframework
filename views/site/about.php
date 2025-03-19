@@ -4,7 +4,7 @@
 
 use yii\helpers\Html;
 
-$this->title = 'About MD Rasheduzzaman';
+$this->title = 'About Zaman Joarddar';
 $this->params['breadcrumbs'][] = $this->title;
 
 ?>
@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="card-body">
                         <h2 class="h3">Introduction</h2>
                         <p>
-                            Hello, I am MD Rasheduzzaman, a passionate and results-driven Project Manager with over 9 years of experience in full-stack development, team leadership, and project management. I specialize in delivering scalable, high-performance solutions using various technologies, including PHP, Node.js, Laravel, React, and more. My expertise lies in overseeing remote teams, managing project lifecycles, and driving innovative tech solutions to help businesses achieve their goals.
+                            Hello, I am Zaman Joarddar, a passionate and results-driven Project Manager with over 9 years of experience in full-stack development, team leadership, and project management. I specialize in delivering scalable, high-performance solutions using various technologies, including PHP, Node.js, Laravel, React, and more. My expertise lies in overseeing remote teams, managing project lifecycles, and driving innovative tech solutions to help businesses achieve their goals.
                         </p>
 
                         <h2 class="h3">Why I Love Computer Science</h2>

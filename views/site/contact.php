@@ -8,7 +8,7 @@ use yii\bootstrap5\ActiveForm;
 use yii\bootstrap5\Html;
 use yii\captcha\Captcha;
 
-$this->title = 'Contact MD Rasheduzzaman';
+$this->title = 'Contact Zaman Joarddar';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact py-5 bg-light">
