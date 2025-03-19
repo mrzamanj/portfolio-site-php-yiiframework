@@ -47,14 +47,14 @@ To set up this portfolio site locally, follow these steps:
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/portfolio-site.git
+git clone https://github.com/mrzamanj/portfolio-site-php-yiiframework.git
 ```
 
 ### 2. Install dependencies:
 Navigate to the project directory and install the required dependencies using Composer.
 
 ```bash
-cd portfolio-site
+cd portfolio-site-php-yiiframework
 composer install
 ```
 
@@ -102,9 +102,9 @@ Messages submitted via the contact form will be stored and processed accordingly
 
 Here are some screenshots of the portfolio site:
 
-- **Home Page**: ![Home Page](screenshots/home-page.png)
-- **About Page**: ![About Page](screenshots/about-page.png)
-- **Contact Form**: ![Contact Form](screenshots/contact-form.png)
+- **Home Page**: ![Home Page](screenshots/Artboard 1@4x.png)
+- **About Page**: ![About Page](screenshots/Artboard 1@4x.png)
+- **Contact Form**: ![Contact Form](screenshots/Artboard 3@4x.png)
 
 ## License
 
