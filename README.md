@@ -1,5 +1,7 @@
 # Portfolio Site - Zaman
 
+<img src="./Artboard 1@4x.png">
+
 This is a portfolio site built with the Yii2 PHP framework, showcasing my professional experience, skills, and projects. The website includes an interactive contact form, sections for project details, and an overview of my work experience.
 
 ## Table of Contents
