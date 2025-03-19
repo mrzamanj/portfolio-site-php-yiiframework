@@ -4,14 +4,14 @@
 
 use yii\helpers\Html;
 
-$this->title = 'MD RASHEDUZZAMAN\'s Portfolio';
+$this->title = 'Zaman Joarddar \'s Portfolio';
 ?>
 <div class="site-index">
 
     <!-- Hero Section -->
     <section class="hero bg-primary text-white text-center py-5">
         <div class="container">
-            <h1 class="display-4">Hello, I'm <strong>MD RASHEDUZZAMAN</strong></h1>
+            <h1 class="display-4">Hello, I'm <strong>Zaman Joarddar </strong></h1>
             <p class="lead">Project Manager | Full-Stack Developer | Technology Enthusiast</p>
             <p><a href="#projects" class="btn btn-light btn-lg">See My Work</a></p>
         </div>
@@ -26,15 +26,15 @@ $this->title = 'MD RASHEDUZZAMAN\'s Portfolio';
                     <p class="lead">I am a results-driven Project Manager with 9+ years of experience in full-stack development, team leadership, and project management. I am skilled in overseeing remote teams, managing project lifecycles, and delivering scalable, high-performance solutions using PHP, Node.js, Laravel, and React. I'm passionate about fostering collaboration, improving system architecture, and ensuring on-time, high-quality software delivery.</p>
                     <p>Currently, I am seeking a remote leadership role to drive innovation and deliver impactful technology solutions.</p>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mrzmna" target="_blank">MD RASHEDUZZAMAN</a></li>
+                        <li class="list-inline-item"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mrzmna" target="_blank">Zaman Joarddar </a></li>
                         <li class="list-inline-item"><strong>Phone:</strong> +88 01734446514</li>
                         <li class="list-inline-item"><strong>Email:</strong> <a href="mailto:mrazmna@gmail.com">mrazmna@gmail.com</a></li>
-                        <li class="list-inline-item"><strong>GitHub:</strong> <a href="https://github.com/mrzmna" target="_blank">GitHub</a></li>
+                        <li class="list-inline-item"><strong>GitHub:</strong> <a href="https://github.com/mrzmnaj" target="_blank">GitHub</a></li>
                         <li class="list-inline-item"><strong>Portfolio:</strong> <a href="https://portfolio-link.com" target="_blank">My Portfolio</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
-                    <img src="path/to/your-image.jpg" alt="MD Rasheduzzaman" class="img-fluid rounded-circle" />
+                <img src="<?= Yii::getAlias('@web') ?>/uploads/images/profile.png" alt="Zaman Joarddar " class="img-fluid rounded-circle" />
                 </div>
             </div>
         </div>
@@ -160,7 +160,7 @@ $this->title = 'MD RASHEDUZZAMAN\'s Portfolio';
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         <div class="container">
-            <p>&copy; <?= date('Y') ?> MD RASHEDUZZAMAN. All Rights Reserved.</p>
+            <p>&copy; <?= date('Y') ?> Zaman Joarddar . All Rights Reserved.</p>
         </div>
     </footer>
 </div>
